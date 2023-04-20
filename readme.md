@@ -5,4 +5,5 @@ This is the root directory for my work samples. Each directory leads to a differ
 
 Current samples:
 
+* **[BootstrapResume](https://github.com/brianjchristianson/WorkSamples/tree/master/BootstrapResume)**: My résumé formatted with som basic Bootstrap styles.
 * **[MovieLookup](https://github.com/brianjchristianson/WorkSamples/tree/master/MovieLookup)**: An interface to get movie details from The Movie Database
