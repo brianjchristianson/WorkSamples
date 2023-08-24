@@ -13,6 +13,7 @@ class TemplateReader
      * @param string $templateName
      * @param array $args
      * @return string
+     * @throws Exception on error reading or parsing template
      */
     public static function parseTemplate(string $templateName, array $args =[]) : string {
         ob_start();
@@ -22,7 +23,7 @@ class TemplateReader
         $result = ob_get_clean();
 
         if ($result === false) {
-            throw Exception("Error parsing template '{$templateName}'");
+            throw new Exception("Error parsing template '{$templateName}'");
         }
 
         return $result;
