@@ -7,6 +7,8 @@ A small sample project using Bootstrap to present a simple interface to query mo
 ###Config
 After installing the files to their root directory, edit config.sample.php to include your API key for The Movie DB.
 
+If running the app from a directory other than the document root, set the `APP_PATH` constant to include the path to the app's directory, relative to the document root and including a trailing slash.
+
 The Database credentials are not required, as the logging class is a sample, and places where it would be logged are commented out. Likewise there is currently no Database installation script.
 
 After this file, save it and rename it to just "config.php".
